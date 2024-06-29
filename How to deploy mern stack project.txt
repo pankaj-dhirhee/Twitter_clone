@@ -16,4 +16,11 @@ Deploying mern stack project
 
   * Name => Twitter_clone_backend
   * Root Directory => backend [It is a folder 'backend' present just inside that repository]
-  * 
+  * Build Command => npm install [because it is a nodejs backend server]
+  * Start Command => 'npm start' [because it is in package.json]
+  * click on 'free'
+
+
+  * Provide invironment variable [scroll down]:
+   * click on 'add from .env'
+   * After adding environment variable : click on 'Deploy web service'
