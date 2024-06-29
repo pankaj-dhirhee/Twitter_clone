@@ -6,3 +6,14 @@ Deploying mern stack project
   Do: const port = process.env.PORT;
 
 * Upload project on github
+
+* Open render.com
+  * click 'new' on navbar
+  * click 'web service'
+  * click 'Build and deploy from a Git repository'
+  * click 'next'
+  * Clikc 'connect' on desired repository'
+
+  * Name => Twitter_clone_backend
+  * Root Directory => backend [It is a folder 'backend' present just inside that repository]
+  * 
