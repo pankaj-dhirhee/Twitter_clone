@@ -22,7 +22,7 @@ app.use(
 app.use(express.json());
 app.use(cookieParser());
 const corsOption = {
-	origin: "https://twitter-clone-backend-1yb0.onrender.com/",
+	origin: "https://twitter-clone-frontend-cd3r.onrender.com",
 	credentials: true,
 };
 app.use(cors(corsOption));
