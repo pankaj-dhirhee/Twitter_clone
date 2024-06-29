@@ -1,0 +1,8 @@
+Deploying mern stack project
+
+1. Deploying backend
+
+* In 'app.js' file:
+  Do: const port = process.env.PORT;
+
+* Upload project on github
