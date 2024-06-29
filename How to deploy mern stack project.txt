@@ -12,7 +12,7 @@ Deploying mern stack project
   * click 'web service'
   * click 'Build and deploy from a Git repository'
   * click 'next'
-  * Clikc 'connect' on desired repository'
+  * Click 'connect' on desired repository'
 
   * Name => Twitter_clone_backend
   * Root Directory => backend [It is a folder 'backend' present just inside that repository]
@@ -24,3 +24,17 @@ Deploying mern stack project
   * Provide invironment variable [scroll down]:
    * click on 'add from .env'
    * After adding environment variable : click on 'Deploy web service'
+
+
+2. Deploying frontend:
+
+  * edit cors policy urls
+  * click 'new' on navbar
+  * click on 'static site'
+  * Click 'connect' on desired repository'
+
+  * Name => Twitter_clone_frontend
+  * Root Directory => frontend [It is a folder 'backend' present just inside that repository]
+  * Build Command => 'npm install; npm run build' [because it is a react js]
+  * Publish directory => './dist' [Because after running build command here static site will be created by react]
+  * click on 'deploy static site'
